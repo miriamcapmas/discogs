@@ -1,0 +1,331 @@
+/* Menú de hamburguesa */
+.navbar-custom {
+  background-color: #71A9B0;
+}
+.navbar-custom .navbar-toggler {
+  border-color: white;
+}
+.navbar-custom .navbar-toggler-icon {
+  background-image: url('imgs/Recurso\ 2.png');
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+
+
+/* Intro */
+.intro h2{
+  font-size: 20pt;
+  margin-top: 10%;
+}
+
+.intro{
+background-image: url('imgs/abajo2.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: top;
+  text-align: center;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.comprar{
+max-width: 50%;
+}
+
+@media (max-width: 767px) {
+  .intro img {
+    max-width: 60%;
+  }
+  
+  .intro .mb-4{
+    font-size: 12pt;
+  }
+  .intro img {
+    max-width: 60%;
+  }
+  
+  .intro .mb-4{
+    font-size: 12pt;
+  }
+
+  .intro{
+      background-image: none;
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro{
+        height: 50vh;
+        background-size: cover;
+    }
+}
+
+/* Frase */
+  
+
+.frase {
+  text-align: center;
+  font-size: 20pt;
+  margin-bottom: 10%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .frase {
+    font-size: 10pt;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.frase{
+  margin-bottom: 90px;
+  margin-top: 10%;
+}
+
+
+
+  
+}
+
+/* Bocadillos */
+
+/* Azul */
+.azul1 img{
+  max-width: 80%;
+}
+
+.azul1{
+  background-image: url(imgs/derecha.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.azul2 img{
+  max-width: 80%;
+}
+
+@media (max-width: 991px) {
+  .azul1 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .azul2 img{
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+
+/* Naranja */
+
+
+.naranja1 img{
+  max-width: 80%;
+  margin-bottom: 60px;
+}
+.naranja2 img{
+  max-width: 80%;
+}
+
+@media (max-width: 991px) {
+  .naranja1 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .naranja2 img{
+      width: 100%;
+      height: auto;
+    }
+}
+
+/* Video */
+
+
+.frasevideo{
+  font-size: 30pt;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 991px) {
+      .frasevideo{
+          font-size:16pt;
+        }
+    }
+  
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+     
+    }
+   /* Tarjetas */
+
+ @media (max-width: 767px) {
+  .fraseclientes h2 {
+    font-size: 14pt;
+    margin-bottom: 50px;
+    padding-top: 30px;
+  }
+  .tarjetas .card {
+    border-radius: 20px;
+    background-color: #FFF8F0;
+  }
+
+}
+.tarjetas .card {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20pt;
+}
+
+.tarjetas img{
+  margin-top: 20px;
+  max-width: 50px;
+}
+
+.tarjetas{
+  background-color: #71A9B0;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+ /* Frase Tarjeta*/
+ .fraseclientes{
+  margin-bottom: 4%;
+  font-size: 30pt;
+  color: #FFF8F0;
+}
+
+ /* Email */
+ .email{
+  background-color: #2E2E2E;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  color: #FFF8F0;
+  margin-bottom: 20%;
+}
+
+.email button{
+background-color: #E0914D;
+border-radius: 14px;
+color: #FFF8F0;
+}
+
+.email button:hover,
+.email button:active {
+background-color: #E0914D;
+}
+
+.input-group{
+border-radius: 40px;
+background-color: #FFF8F0;
+max-width: 500px;
+}
+
+.email h2{
+margin-bottom: 50px;
+}
+.email img{
+margin-top: 10px;
+max-width: 220px;
+}
+/* Footer */
+footer{
+margin-top: 0;
+background-color: #F3E7D6;
+}
+
+/* Icon */
+
+.icon img{
+  max-width: 50px;
+  margin-left: 20px;
+}
+.icon p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.iconos{
+  background-image: url('imgs/arriba2.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: bottom;
+  text-align: center;
+  max-width: 100%;
+  height: 60vh;
+}
+
+.icon{
+padding-top: 250px;
+}
+
+@media (max-width: 991px) {
+  .icon{
+      padding-top: 90px;
+      }
+      .icon p{
+          font-size: 16px;
+          margin-top: 20px;
+      }
+      .icon h2{
+          font-size: 20px;
+      }
+      .iconos{
+          background-image: url('imgs/arriba2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+          text-align: center;
+          max-width: 100%;
+          height: 40vh;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .icon{
+      padding-top: 90px;
+      }
+      .icon p{
+          font-size: 16px;
+          margin-top: 20px;
+      }
+      .icon h2{
+          font-size: 20px;
+      }
+      .iconos{
+          background-image: url('imgs/arriba2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+          text-align: center;
+          max-width: 100%;
+          height: 25vh;
+      }
+}
